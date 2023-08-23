@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ html, body{
+   margin: 0;
+   padding: 0;
+ }
+ nav{
+    padding: 0 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ #navdiv{
+    width: 30%;
+ }
+ 
+ a{
+   text-decoration: none;
+ }
+ 
+ nav a{
+    padding: 0 2%;
+ }
+
+.hero{
+   background-image: url(image/pins.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top center;
+   margin-bottom: 20px;
+}
+
+#colorsquarehero{
+   display: inline-block;
+   background: linear-gradient(180deg, rgba(255,255,255,80%) 0%, rgba(255,255,255,1) 100%);
+   border-radius: 20px;
+   width: 55%;
+   padding: 50px;
+   margin: 10% 20%; 
+   text-align: center;
+}
+   
+h1{
+   text-align: center;
+   color: #0A4452;
+   font-size: 35px;
+   margin-top: 10px;
+   margin-bottom: 50px;
+   font-family: 'Raleway', sans-serif;
+}
+
+.hero h2{
+   text-align: center;
+   margin: auto;
+   color: #0A4452;
+   font-size: 45px;
+   font-family: 'Raleway', sans-serif;
+}
+
+#herobutton{
+   padding: 15px;
+   background-color: #0A4452;
+   color: #ffffff;
+   font-size: 20px;
+   border-radius: 5px;
+}
+#herobutton:hover{
+   background-color:  #C9C1B6;
+   color: black;
+}
+
+.stickynotesection{
+   background: linear-gradient(180deg, rgb(48, 116, 132) 0%,rgb(52, 120, 137) 50%, rgba(255,255,255,1) 100%);
+   height: 100%;
+   padding-top: 55px;
+}
+
+.stickynotesection h3 {
+   text-align: center;
+   font-size: 40px;
+   margin: 0;
+   font-family: 'Raleway', sans-serif;
+   color: #ffffff;
+   
+
+}
+
+.stickynotesection ul {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   list-style-type: none; 
+   padding-top: 55px;
+}
+
+.stickynote{
+   font-family: 'Give You Glory', cursive;
+   font-size: 25px;
+   font-weight: 400;
+   width: 300px;
+   height: 300px;
+   background: linear-gradient(
+    150deg,
+    rgba(187, 235, 255, 1) 0%,
+    rgba(187, 235, 255, 1) 12%,
+    rgb(141, 203, 229) 73%,
+    rgb(144, 212, 242) 80%,
+    rgba(170, 220, 241, 1) 94%,
+    rgba(195, 229, 244, 1) 100%);
+  
+   padding: 10px;
+   box-shadow: 5px 5px 10px;
+}
+
+.stickynote li {
+   text-align: center;
+   margin-top: -20px;
+   
+   
+}
+.stickynotesection img{
+   height:25%;
+   margin: 0%;
+   padding-left: 35%;
+}
+.stickyone{
+   transform: rotate(-10deg);
+}
+.stickytwo{
+   transform: rotate(4deg);
+}
+.stickythree{
+   transform: rotate(10deg);
+}
+
+.testimonialsection{
+   background-color:#E7E2DC;
+   text-align: center;
+   padding:  2% 0%;
+   font-family: 'Raleway', sans-serif;
+   
+}
+.testimonialinnersection{
+   margin: auto;
+   width: 70%;
+   background-color: #ffffff;
+   padding: 25px; 
+   margin-top: 3%;
+   border: 2px solid #0A4452  ;
+   border-radius: 20px;
+}
+.testimonialinnersection h4{
+   font-size: 24px;
+   color: #0A4452;
+   font-weight: bolder;
+}
+.testimonialinnersection p{
+   font-size: 18px;
+
+}
+.testimonialinnersection img{
+   border-radius: 50%;
+   margin-right: 3%;
+}
+#testimonialauthor{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Raleway', sans-serif;
+   margin: 0;
+}
+h5{
+   margin: 0;
+}
+#nameauthors{
+   margin: 0;
+   font-size: 18px;
+   font-family: 'Give You Glory', cursive;
+}
+.chk{
+   text-align: center;
+   padding-bottom: 3%;
+   background-color:#E7E2DC;
+   padding-left: 8%;
+   padding-right: 8%;
+}
+.chk h3 {
+   font-size: 40px;
+   margin: 0;
+   font-family: 'Raleway', sans-serif;
+   color: black;
+   padding:  3% 0 ;  
+}
+.main-card-section{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+
+}
+
+
+.secound-card-section{
+   font-size: 20px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 500;
+   background-color: #ffffff;
+   width: 300px;
+   height: 300px;
+   border: 2px solid black ;
+   z-index: 0;
+   transform: rotate(-80deg);
+   
+}
+.secound-card-section p{
+   margin:  14% 15%;
+   
+}
+
+.cardsection{
+   background-color: #0A4452;
+   border: 2px solid black  ;
+   margin:  3%;
+   z-index: 1;
+   transform: rotate(80deg);
+    
+}
+
+.highlight-words{
+   font-weight: 900;
+   margin: 0;
+   
+   
+   
+}
+.text-decoration{
+font-size: 25px;
+font-weight: 600;
+padding: 1% 13%;
+}
+
+.homeaboutme{
+   background-color: #0A4452;
+   padding:  0 10%;
+
+   
+}
+
+.polaroidphoto{
+   display:inline-block;
+   background-color: #C9C1B6;
+   width: 30%;
+   padding: 2% 2% 4% 2%;
+   text-align: center;
+   transform: rotate(-10deg);
+   
+}
+
+.polaroidphoto img{
+   width: 100%;
+}
+
+ 
